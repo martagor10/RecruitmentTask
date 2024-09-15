@@ -13,8 +13,8 @@ public class DiscFileLoaderTests
     public async Task ShouldLoadFileAndReturnSomeText()
     {
         // arrange
-        const string text = "Go do that thing that you do so well";
-        var path = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, "./Test1.txt"));
+        var path = "Test1.txt";
+        string text = await File.ReadAllTextAsync(path);
         
         // act
         var result = await _discFileLoader.Load(path);
@@ -27,7 +27,7 @@ public class DiscFileLoaderTests
     public async Task ShouldThrowExceptionIfPathToFileDoesNotExist()
     {
         // arrange
-        var path = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, "./Test10.txt"));
+        var path = "Test10.txt";
 
         // act & assert
         await Assert.ThrowsAsync<FileNotFoundException>(() => _discFileLoader.Load(path));
