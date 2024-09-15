@@ -11,7 +11,7 @@ RecruitmentTask.App.exe at <side A> <side B> <side C>
 ```
 Example:
 ```
-RecruitmentTask.App.exe analyze-triangle 2 2 4
+RecruitmentTask.App.exe analyse-triangle 2 2 4
 RecruitmentTask.App.exe at 2 2 4
 ```
 
