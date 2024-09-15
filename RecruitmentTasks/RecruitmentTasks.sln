@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentTask.TriangleAnalyser", "RecruitmentTask.TriangleAnalyser\RecruitmentTask.TriangleAnalyser.csproj", "{1C567B22-F995-4FD2-ACF0-08475A63D9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentTask.TriangleAnalyser.Tests", "RecruitmentTask.TriangleAnalyser.Tests\RecruitmentTask.TriangleAnalyser.Tests.csproj", "{907D7C5C-E078-416F-9A23-4043717A7602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentTask.WordCounter", "RecruitmentTask.WordCounter\RecruitmentTask.WordCounter.csproj", "{E0B52DB0-FA51-4696-BDFF-6B92F313519A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentTask.App", "RecruitmentTask.App\RecruitmentTask.App.csproj", "{D46A84D4-1952-4D44-B028-958865AEDA7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentTask.WordCounter.Tests", "RecruitmentTask.WordCounter.Tests\RecruitmentTask.WordCounter.Tests.csproj", "{E13DDF40-E6A8-4592-87A7-B1C0D5A19A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{27CFC10F-A990-44BD-BD2B-B2A034C36D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C567B22-F995-4FD2-ACF0-08475A63D9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C567B22-F995-4FD2-ACF0-08475A63D9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C567B22-F995-4FD2-ACF0-08475A63D9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C567B22-F995-4FD2-ACF0-08475A63D9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907D7C5C-E078-416F-9A23-4043717A7602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907D7C5C-E078-416F-9A23-4043717A7602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907D7C5C-E078-416F-9A23-4043717A7602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907D7C5C-E078-416F-9A23-4043717A7602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B52DB0-FA51-4696-BDFF-6B92F313519A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B52DB0-FA51-4696-BDFF-6B92F313519A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B52DB0-FA51-4696-BDFF-6B92F313519A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B52DB0-FA51-4696-BDFF-6B92F313519A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46A84D4-1952-4D44-B028-958865AEDA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46A84D4-1952-4D44-B028-958865AEDA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46A84D4-1952-4D44-B028-958865AEDA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46A84D4-1952-4D44-B028-958865AEDA7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13DDF40-E6A8-4592-87A7-B1C0D5A19A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13DDF40-E6A8-4592-87A7-B1C0D5A19A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13DDF40-E6A8-4592-87A7-B1C0D5A19A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13DDF40-E6A8-4592-87A7-B1C0D5A19A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C567B22-F995-4FD2-ACF0-08475A63D9AD} = {27CFC10F-A990-44BD-BD2B-B2A034C36D83}
+		{907D7C5C-E078-416F-9A23-4043717A7602} = {27CFC10F-A990-44BD-BD2B-B2A034C36D83}
+		{E0B52DB0-FA51-4696-BDFF-6B92F313519A} = {27CFC10F-A990-44BD-BD2B-B2A034C36D83}
+		{E13DDF40-E6A8-4592-87A7-B1C0D5A19A7A} = {27CFC10F-A990-44BD-BD2B-B2A034C36D83}
+	EndGlobalSection
+EndGlobal
